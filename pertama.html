@@ -1,0 +1,23 @@
+<html>
+	<head>
+		<script type="text/javascript" src="jquery-1.4.2.min.js">
+		</script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$(".sembunyi").click(function(){
+					$("#foto").hide("slow");
+					});
+			
+					$(".tampil").click(function(){
+						$("#foto").show("slow")
+						});
+					});
+		</script>
+				
+	</head>
+	<body>
+		<p><img id="foto" src="peluk.jpg" /></p>
+		<button class="sembunyi">Sembunyikan</button>
+		<button class="tampil">Tampilkan</button>
+	</body>
+</html>
